@@ -11,7 +11,7 @@ public class javanfactorial
 		for(i=1;i<=n;i++)
 		{
 			f=f*i;
-			System.out.println("Factorial of "+i"is"+f);
+			System.out.println("Factorial of "+i+ " is "+f);
 		}
 	}
 }

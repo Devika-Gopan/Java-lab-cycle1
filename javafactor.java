@@ -3,11 +3,11 @@ public class javafactor
 {
 	public static void main(String args[])		
 	{
-		int i,f=1;		
+		int i;		
 		Scanner ip=new Scanner(System.in);
 		System.out.println("Enter the number :");
 		int n =ip.nextInt();
-                System.out.println("Factors of "+n);
+                System.out.println("Factors of "+n+" are:");
 		for(i=1;i<=n;i++)
 		{
 			if(n%i==0)
